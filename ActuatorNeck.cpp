@@ -35,7 +35,7 @@ void ActuatorNeck::attach(int pin)
  */
 void ActuatorNeck::rotateClockwise()
 {
-	neck.write(180);
+	neck.write(120);
 }
 
 /**
@@ -43,7 +43,7 @@ void ActuatorNeck::rotateClockwise()
  */
 void ActuatorNeck::rotateCounterclockwise()
 {
-	neck.write(0);
+	neck.write(60);
 }
 
 /**
